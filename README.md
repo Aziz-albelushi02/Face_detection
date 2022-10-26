@@ -8,4 +8,6 @@ pip install python-opencv
 
 -- if the first one did not work or you keep getting errors try the one below --
 
-pip install python-opencv-headless
+pip install python-opencv-headless or pip install opencv_contrib_python
+
+

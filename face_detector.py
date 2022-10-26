@@ -11,7 +11,9 @@ trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 
 # To capture video from webcam or even a recored MP4 that has faces
-webcam = cv2.VideoCapture(0)
+webcam = cv2.VideoCapture(1)
+# note on cv2.VideoCapture(0) for frontal camera and (1) is for the selfie webcam
+
 
 
 while True:
