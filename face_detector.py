@@ -11,8 +11,9 @@ trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 
 # To capture video from webcam or even a recored MP4 that has faces
-webcam = cv2.VideoCapture(1)
+webcam = cv2.VideoCapture(0)
 # note on cv2.VideoCapture(0) for frontal camera and (1) is for the selfie webcam
+#Note using the main laptop SWITCH TO ZERO CUZ THERE IS ONLY ONE OUTPUT
 
 
 
@@ -37,7 +38,7 @@ while True:
 
     
     #displays the image when its running
-    cv2.imshow('Clever Programmer Face Detector', frame)
+    cv2.imshow('Face Detector', frame)
     
     #helps to change frame per milsec
     cv2.waitKey(1)
