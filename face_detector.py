@@ -17,13 +17,6 @@ if Ques == 0:
 elif Ques == 1:
     webcam = cv2.VideoCapture(1)
 
-    
-
-
-
-
-
-
 # note on cv2.VideoCapture(0) for frontal camera and (1) is for the selfie webcam
 #Note using the main laptop SWITCH TO ZERO CUZ THERE IS ONLY ONE OUTPUT
 
